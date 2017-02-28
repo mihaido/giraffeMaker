@@ -4,7 +4,7 @@ var giraffeMaker = function(name, height) {
   var newGiraffe = {};
   newGiraffe.name = name;
   newGiraffe.height = height;
-  newGiraffe.hunger = 10;
+  newGiraffe.hunger = 11;
   extend(newGiraffe, giraffeMaker.giraffeMethods);
 
   return newGiraffe;
